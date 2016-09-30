@@ -7,4 +7,4 @@ function sum(int $a, int $b) :int {
 }
 
 var_dump(sum(1, 2));
-var_dump(sum(1.5, 2.5));
+var_dump(sum(1.5, 2.5)); //Uncaught TypeError.
