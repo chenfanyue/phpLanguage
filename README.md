@@ -1,2 +1,2 @@
 # phpLanguage
-Classic example code for modern PHP.
+Classic primitive usage examples for modern PHP.
