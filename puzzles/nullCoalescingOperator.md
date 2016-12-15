@@ -1,0 +1,25 @@
+$ tkr
+Psy Shell v0.7.2 (PHP 7.0.13 — cli) by Justin Hileman
+>>> return 'he'
+=> "he"
+>>> return 'a'?:'b';
+=> "a"
+>>> return ''?:'b';
+=> "b"
+>>> return null?:'b';
+=> "b"
+>>> return 0?:'b';
+=> "b"
+>>> return '0'?:'b';
+=> "b"
+>>> return '0'??'b';
+=> "0"
+>>> return 0??'b';
+=> 0
+>>> return null??'b';
+=> "b"
+>>> return ''??'b';
+=> ""
+>>> return 'a'??'b';
+=> "a"
+ 
